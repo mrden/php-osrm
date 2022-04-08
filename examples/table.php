@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../src/autoload.php';
 
-$table = new \OSRM\Service\Table();
+$table = new \OSRM\Service\TableService();
 
 try {
 	$response = $table

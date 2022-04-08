@@ -4,7 +4,7 @@ namespace OSRM\Service;
 use OSRM\AbstractService;
 use OSRM\Exception;
 
-class Trip extends AbstractService
+class TripService extends AbstractService
 {
     protected $service = 'trip';
 

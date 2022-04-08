@@ -4,7 +4,7 @@ namespace OSRM\Service;
 use OSRM\AbstractService;
 use OSRM\Exception;
 
-class Table extends AbstractService
+class TableService extends AbstractService
 {
     protected $service = 'table';
 

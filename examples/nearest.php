@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../src/autoload.php';
 
-$nearest = new \OSRM\Service\Nearest();
+$nearest = new \OSRM\Service\NearestService();
 
 try {
 	$response = $nearest

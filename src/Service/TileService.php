@@ -3,7 +3,7 @@ namespace OSRM\Service;
 
 use OSRM\AbstractService;
 
-class Tile extends AbstractService
+class TileService extends AbstractService
 {
     protected $service = 'tile';
 

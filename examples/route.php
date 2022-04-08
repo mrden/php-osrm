@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../src/autoload.php';
 
-$route = new \OSRM\Service\Route();
+$route = new \OSRM\Service\RouteService();
 
 try {
 	$response = $route

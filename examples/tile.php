@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../src/autoload.php';
 
-$tile = new \OSRM\Service\Tile();
+$tile = new \OSRM\Service\TileService();
 
 try {
 	$response = $tile
