@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../src/autoload.php';
 
-$match = new \OSRM\Service\Match();
+$match = new \OSRM\Service\MatchService();
 
 try {
 	$response = $match->fetch('13.388860,52.517037;13.397634,52.529407');
