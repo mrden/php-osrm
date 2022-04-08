@@ -1,10 +1,10 @@
 {
-  "name": "riverside/php-osrm",
+  "name": "mrden/php-osrm",
   "description": "PHP client for Project-OSRM.",
   "type": "library",
   "version": "2.0.0",
   "keywords": ["php", "osm", "osrm", "openstreetmap", "distance"],
-  "homepage": "https://github.com/riverside/php-osrm",
+  "homepage": "https://github.com/mrden/php-osrm",
   "license": "MIT",
   "authors": [
     {
@@ -12,12 +12,17 @@
       "email": "info@zinoui.com",
       "homepage": "https://zinoui.com",
       "role": "Developer"
+    },
+    {
+      "name": "Denis Kiselev",
+      "email": "kiselevden911@yandex.ru",
+      "role": "Contributer"
     }
   ],
   "require": {
     "ext-json": "*",
     "ext-curl": "*",
-    "php": "^8.0",
+    "php": "^7.0 || ^8.0",
     "phpunit/phpunit": "^9.5"
   },
   "autoload": {
