@@ -8,7 +8,7 @@ PHP client for Project-OSRM.
 ## Installation
 - If Composer is already installed
 ```
-composer require riverside/php-osrm
+composer require mrden/php-osrm
 ```
 - If Composer is not installed on your system yet, you may go ahead and install it using this command line:
 ```
@@ -18,7 +18,7 @@ Next, add the following require entry to the `composer.json` file in the root of
 ```json
 {
     "require" : {
-        "riverside/php-osrm" : "*"
+        "mrden/php-osrm" : "*"
     }
 }
 ```
