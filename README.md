@@ -1,10 +1,6 @@
 # php-osrm
 PHP client for Project-OSRM.
 
-| Build | Stable | License |
-| ----- | ------ | ------- |
-| [![Build Status][x1]][y1] | [![Latest Stable Version][x2]][y2] | [![License][x3]][y3] |
-
 ## Installation
 - If Composer is already installed
 ```
